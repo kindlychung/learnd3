@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<p>Start</p>
+
+<div id="d3"></div>
+<div id="app"></div>
+<canvas id="canvas"></canvas>
+
+
+
+<!-- Include Scala.js compiled code -->
+<script type="text/javascript" src="./target/scala-2.11/learnd3-fastopt.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/learnd3-jsdeps.js"></script>
+<script type="text/javascript" src="/workbench.js"></script>
+<!--<script>-->
+<!--tutorial.webapp.Sierpinski().main(document.getElementById('canvas'));-->
+<!--</script>-->
+<!--<script>-->
+<!--tutorial.webapp.Weather2().main(document.getElementById('app'));-->
+<!--</script>-->
+<script>
+tutorial.webapp.LearnD3().main(document.getElementById('d3'));
+</script>
+
+</body>
+</html>
